@@ -11,7 +11,7 @@ app.get("/", function(req,res){                                                 
 app.post("/", function(req,res){
 
   const query=req.body.citta;
-  const key="57e47da07e76c579d3ce8042e7b3794e";
+  const key="Insert the Key ok Openweathermap";
 
   //res.send("il server funziona");                                              // res.send restituiamo qualcosa all' utente.
   const url ="https://api.openweathermap.org/data/2.5/weather?q="+query+"&appid="+ key +"&units=metric&lang=it";
